@@ -64,7 +64,7 @@ func SetLogger(new lorg.Logger) {
 func GetPackages(name ...string) (map[string]Package, error) {
 	var response responseInfo
 
-	err := call("info", url.Values{"arg[]": name}, &response)
+	err := call("multiinfo", url.Values{"arg[]": name}, &response)
 	if err != nil {
 		return nil, err
 	}
@@ -83,6 +83,8 @@ func call(method string, value url.Values, response interface{}) error {
 	url := aurBaseURL + "?version=" + aurVersion +
 		"&type=" + method +
 		"&" + value.Encode()
+
+	debugf("~> %s", url)
 
 	payload, err := http.NewRequest("GET", url, nil)
 	if err != nil {
