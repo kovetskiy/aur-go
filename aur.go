@@ -7,7 +7,7 @@ import (
 	"net/url"
 
 	"github.com/kovetskiy/lorg"
-	"github.com/seletskiy/hierr"
+	"github.com/reconquest/hierr-go"
 )
 
 // Package represents information about uploaded package.
@@ -26,9 +26,6 @@ type Package struct {
 	FirstSubmitted int64       `json:"FirstSubmitted"`
 	LastModified   int64       `json:"LastModified"`
 	URLPath        string      `json:"URLpath"`
-	MakeDepends    []string    `json:"MakeDepends"`
-	Licenses       []string    `json:"License"`
-	Keywords       []string    `json:"Keywords"`
 }
 
 type responseInfo struct {
