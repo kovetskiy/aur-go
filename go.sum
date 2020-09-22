@@ -1,0 +1,6 @@
+github.com/kovetskiy/lorg v0.0.0-20200107130803-9a7136a95634 h1:szpgh20EtHoQhJ38jrp7S2nlrhf56GSwa4de0hMfc2U=
+github.com/kovetskiy/lorg v0.0.0-20200107130803-9a7136a95634/go.mod h1:B8HeKAukXULNzWWsW5k/SQyDkiQZPn7lTBJDB46MZ9I=
+github.com/reconquest/hierr-go v0.0.0-20170824213838-7d09c0176fd2 h1:v3ctQXyIHprCI7s42LGmMYbulnnpjeD4zcvq78D1ung=
+github.com/reconquest/hierr-go v0.0.0-20170824213838-7d09c0176fd2/go.mod h1:dF8sYs86hXr+kKjDVvxDZYMUsTm5yr0PFQqLer/xsrk=
+github.com/zazab/zhash v0.0.0-20170403032415-ad45b89afe7a h1:8gf6DUwu6F8Fh3rN8Ei9TM66KkWrNC04FP3HlcbxPuQ=
+github.com/zazab/zhash v0.0.0-20170403032415-ad45b89afe7a/go.mod h1:P+yVThXQrjx7yGmgsdI4WQ/XDDmcyBMZzK1b39TXteA=
